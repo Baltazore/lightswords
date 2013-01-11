@@ -27,11 +27,12 @@ db/*.sqlite3
 .rspec
 .redcar/
 .sass-cache
-/config/config.yml
-/config/database.yml
-/coverage.data
-/coverage/
-/db/*.javadb/
+capybara-*.html
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
 /db/*.sqlite3
 /doc/api/
 /doc/app/
@@ -40,6 +41,7 @@ db/*.sqlite3
 /public/cache
 /public/stylesheets/compiled
 /public/system/*
+/coverage/
 /spec/tmp/*
 /cache
 /capybara*
@@ -72,6 +74,3 @@ pickle-email-*.html
 
 # vim artifacts
 **.swp
-
-# Ignore application configuration
-/config/application.yml
