@@ -33,3 +33,5 @@ gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.0.4"
 gem "figaro", ">= 0.5.0"
 gem "libv8", ">= 3.11.8"
+gem 'heroku'
+gem 'pg', :group => :production
