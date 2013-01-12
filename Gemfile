@@ -23,6 +23,7 @@ group :test do
   gem "email_spec", ">= 1.4.0"
   gem "launchy", ">= 2.1.2"
   gem "capybara", ">= 2.0.1"
+  gem "nyan-cat-formatter"
 end
 gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
 gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]

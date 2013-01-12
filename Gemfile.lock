@@ -116,6 +116,7 @@ GEM
     multi_json (1.5.0)
     netrc (0.7.7)
     nokogiri (1.5.6)
+    nyan-cat-formatter (0.2.0)
     orm_adapter (0.4.0)
     pg (0.14.1)
     polyglot (0.3.3)
@@ -228,6 +229,7 @@ DEPENDENCIES
   jquery-rails
   launchy (>= 2.1.2)
   libv8 (>= 3.11.8)
+  nyan-cat-formatter
   pg
   quiet_assets (>= 1.0.1)
   rails (= 3.2.11)
